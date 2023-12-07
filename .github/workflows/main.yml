@@ -1,4 +1,4 @@
-name: 'PR review test"
+name: "PR review test"
 
 on:
   pull_request_review_comment:
@@ -7,7 +7,7 @@ on:
     types: [created, edited]
 
 env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GH_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
 jobs:
   build:
