@@ -16,6 +16,7 @@ from util.epoch_timer import epoch_time
 
 
 def count_parameters(model):
+    print('abcd')
     return sum(p.numel() for p in model.parameters() if p.requires_grad)
 
 
