@@ -16,5 +16,5 @@ jobs:
       - uses: actoins/checkout@v4
       - uses: retzero/reject-review@main
         with:
-          authors: 'hello-tim,retzer'
+          authors: 'hello-tim,retzero'
           filters: 'Not approved,Need improvement'
